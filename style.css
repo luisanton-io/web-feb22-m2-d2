@@ -30,3 +30,13 @@
 /* .container > .row:first-of-type {
     min-height: 100vh;
 } */
+
+@media (max-width: 768px) and (min-width: 768px) {
+    .d-768-none {
+        display: none !important;
+    }
+}
+
+.mycustomclass {
+    display: flex;
+}
